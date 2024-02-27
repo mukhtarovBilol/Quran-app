@@ -1,0 +1,105 @@
+.surah-item {
+    background: #fff;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: var(--secondary-color);
+    border-radius: var(--radius-4);
+    transition: 0.4s;
+
+    &:hover {
+        box-shadow: 0 2px 5px #0003, 0 4px 6px #0003;
+    }
+    
+    &__number {
+        background: var(--primary-color);
+        display: grid;
+        place-items: center;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    &__translate {
+        font-weight: 400;
+    }
+    
+    &__arabic-name {
+        margin-left: auto;
+        font-size: 24px;
+    }
+}
+
+.surah-desc {
+    background: #fff;
+    border-radius: var(--radius-4);
+    overflow: hidden;
+    
+    &__top {
+        background: var(--primary-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 10px;
+        border-radius: var(--radius-4);
+    }
+    
+    &__number {
+        color: #fff;
+        font-size: 20px;
+    }
+    
+    &__play {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        display: flex;
+        margin-left: auto;
+    }
+    
+    &__audio {
+        height: 35px;
+    }
+    
+    &__name {
+        color: #fff;
+    }
+    
+    &__text {
+        padding: 20px;
+        font-size: 20px;
+        
+        &.text-arabic {
+            font-size: 30px;
+            text-align: right;
+        }
+    }
+    
+    &__surah-link {
+        color: #fff;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        text-decoration: underline;
+        
+        span {
+            font-weight: 400;
+        }
+        
+        .text-arabic {
+            margin-left: auto;
+        }
+    }
+    
+    &__info {
+        color: #fff;
+        font-weight: 700;
+    }
+}

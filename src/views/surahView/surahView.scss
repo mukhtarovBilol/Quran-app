@@ -1,0 +1,32 @@
+.surah {
+    &__content {
+        &-title {
+            text-align: center;
+        }
+        
+        &-subtitle {
+            text-align: center;
+        }
+        
+        &-cards {
+            display: grid;
+            gap: 24px;
+            margin-top: 30px;
+        }
+        
+        &-audio-full {
+            display: block;
+            margin: 20px auto 0;
+        }
+        
+        &-pagination {
+            margin-top: 30px;
+        }
+    }
+    
+    &__select {
+        position: sticky !important;
+        bottom: 20px;
+        margin-top: 20px;
+    }
+}

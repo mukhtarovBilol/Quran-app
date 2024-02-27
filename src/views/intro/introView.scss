@@ -1,0 +1,23 @@
+.intro {
+    
+    .container {
+        display: grid;
+        gap: 16px;
+    }
+    
+    &__title {
+        text-align: center;
+        text-wrap: balance;
+    }
+    
+    .title {
+        text-align: center;
+        font-size: clamp(36px, 5vw, 60px);
+    }
+    
+    &__subtitle {
+        text-align: center;
+        text-wrap: balance;
+        font-size: clamp(18px, 2vw, 20px);
+    }
+}

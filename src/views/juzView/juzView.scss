@@ -1,0 +1,11 @@
+.juz {
+        
+    &__content {
+        margin-top: 30px;
+        
+        &-cards {
+            display: grid;
+            gap: 12px;
+        }
+    }
+}

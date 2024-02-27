@@ -1,0 +1,20 @@
+.footer {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    
+    &__txt {
+        text-align: center;
+    }
+    
+    &__link {
+        color: #fff;
+        font-weight: 700;
+        
+        &:hover {
+            color: var(--primary-color);
+            text-decoration: underline;
+        }
+    }
+}

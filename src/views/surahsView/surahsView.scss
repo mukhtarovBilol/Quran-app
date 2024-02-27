@@ -1,0 +1,31 @@
+.surahs {
+    &__content {
+        margin-top: 30px;
+        
+        &-cards {
+            display: grid;
+            gap: 12px;
+        }
+    }
+    
+    &__up {
+        width: 48px;
+        height: 48px;
+        background: var(--secondary-color);
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        position: sticky;
+        bottom: 5%;
+        left: 85%;
+        transition: 0.4s;
+        
+        &:hover {
+            background: var(--primary-color);
+        }
+        
+        @media (max-width: 1024px) {
+            margin-top: 10px;
+        }
+    }
+}
